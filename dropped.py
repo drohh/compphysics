@@ -5,7 +5,8 @@ import math
 h = float(input("Enter the height (meters) of the building: "))
 g = 9.81 # acceleration due to gravity
 timeToGround = math.sqrt(h / g * 2)
-print(timeToGround)
+print("The object will hit the ground in {} seconds.".format(timeToGround))
+input()
 
 # Analysis of object at a particular time
 '''
