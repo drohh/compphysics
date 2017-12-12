@@ -1,3 +1,4 @@
+# This program converts coordinates to polar/cartesian. 
 from math import cos, sin, sqrt, atan, thetarees
 
 def ptoc(r, theta):
